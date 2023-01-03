@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.container-choice-trainings{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 5rem;
+    padding: 5rem;
+}
+.container-choice{
+    text-align: center;
+}
+.container-trainings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.container-training > input[type="radio"]{
+    display: none;
+}
+
+.container-training > .training-img{
+    border-radius: 10px;
+}
+
+.container-training > .training-img > img{
+    height: 40px;
+    border-radius: 10px;
+}
+
+.container-training > input[type="radio"]:checked + label{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.container-pokemons{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container-pokemon{
+    display: block;
+}
